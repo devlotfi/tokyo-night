@@ -15,16 +15,13 @@ A Set of Tokyo Night themes for different softwares
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/chromium-1.png">
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/chromium-2.png">
 
-
 ## DuckDuckGo
 
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/duckduckgo-1.png">
 
-
 ## JetBrains
 
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/jetbrains-1.png">
-
 
 ## FastFetch
 
@@ -33,3 +30,7 @@ A Set of Tokyo Night themes for different softwares
 ## Oh My Posh
 
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/oh-my-posh-1.png">
+
+## Wallpaper
+
+<img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/wallpaper.jpg">
