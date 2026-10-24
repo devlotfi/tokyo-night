@@ -1,0 +1,100 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 4,
+  "final_space": true,
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#7AA2F7",
+    "template": "\u276f "
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#414868",
+          "template": "\u256d\u2500"
+        },
+        {
+          "type": "os",
+          "style": "powerline",
+          "foreground": "#7AA2F7",
+          "background": "#414868",
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+          "powerline_symbol": "\ue0b0",
+          "leading_diamond": "\ue0c2",
+          "trailing_diamond": "\ue0b0",
+          "leading_powerline_symbol": "\ue0b6",
+          "options": {
+            "macos": "mac"
+          }
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "foreground": "#1A1B26",
+          "background": "#9AA5CE",
+          "template": " {{ .UserName }}@{{ .HostName }} ",
+          "powerline_symbol": "\ue0b4"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "foreground": "#1A1B26",
+          "background": "#7AA2F7",
+          "template": " \ue5ff {{ .Path }} ",
+          "powerline_symbol": "\ue0b4",
+          "options": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "foreground": "#1A1B26",
+          "background": "#BB9AF7",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "powerline_symbol": "\ue0b4",
+          "options": {
+            "fetch_upstream_icon": true
+          }
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "foreground": "#1A1B26",
+          "background": "#F7768E",
+          "template": " \uf0e7 ",
+          "powerline_symbol": "\ue0b4"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#414868",
+          "template": "\u2570\u2500"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#7AA2F7",
+          "template": "\u276f "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": []
+    }
+  ]
+}

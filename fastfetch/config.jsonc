@@ -1,0 +1,91 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "%USERPROFILE%/.config/fastfetch/logo.txt",
+    "padding": {
+      "top": 1,
+      "left": 4,
+      "bottom": 0,
+      "right": 6,
+    },
+  },
+  "display": {
+    "separator": " ▸ ",
+  },
+  "modules": [
+    "break",
+    "break",
+    "break",
+    "title",
+    "break",
+    {
+      "type": "os",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "kernel",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "shell",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "de",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "wm",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "terminal",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "gpu",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    {
+      "type": "battery",
+      "key": "󱊢",
+      "keyColor": "magenta",
+      "outputColor": "blue",
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+    },
+    "break",
+    "break",
+    "break",
+  ],
+}

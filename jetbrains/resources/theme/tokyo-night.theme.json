@@ -1,0 +1,575 @@
+{
+  "name": "Tokyo Night",
+  "author": "Debbal Lotfi",
+  "dark": true,
+  "editorScheme": "/theme/tokyo-night.xml",
+  "parentTheme": "Islands Dark",
+  "colors": {
+    "background": "#24283B",
+    "backgroundElevated": "#2E3246",
+    "backgroundSelected": "#2E3246",
+    "backgroundHover": "#2E3246",
+    "backgroundFrame": "#1E2232",
+    "foreground": "#A9B1D6",
+    "foregroundBright": "#C0CAF5",
+    "foregroundDim": "#505771",
+    "accent": "#BB9AF7",
+    "accentSecondary": "#8C74B8",
+    "border": "#333645",
+    "borderSubtle": "#2b2f3e",
+    "selection": "#3a3f53",
+    "selectionInactive": "#323748",
+    "red": "#F7768E",
+    "orange": "#FF9E64",
+    "yellow": "#E0AF68",
+    "green": "#9ECE6A",
+    "blue": "#7AA2F7",
+    "purple": "#BB9AF7",
+    "teal": "#73DACA"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "selectionInactive",
+      "inactiveBackground": "background",
+      "disabledBackground": "background",
+      "disabledForeground": "foregroundDim",
+      "disabledText": "foregroundDim",
+      "borderColor": "border",
+      "separatorColor": "border",
+      "focusColor": "accent",
+      "focusedBorderColor": "accent",
+      "selectedForeground": "foreground",
+      "selectedBackground": "backgroundSelected",
+      "hoverBackground": "backgroundHover",
+      "pressedBackground": "backgroundSelected",
+      "acceleratorForeground": "foregroundDim",
+      "errorForeground": "red",
+      "warningForeground": "orange",
+      "infoForeground": "accent"
+    },
+
+    "MainWindow": {
+      "background": "backgroundFrame"
+    },
+
+    "MainToolbar": {
+      "background": "backgroundFrame",
+      "borderColor": "#00000000"
+    },
+
+    "TitlePane": {
+      "background": "backgroundFrame",
+      "inactiveBackground": "backgroundFrame",
+      "Button.hoverBackground": "backgroundSelected"
+    },
+
+    "NavBar": {
+      "borderColor": "border"
+    },
+
+    "ToolWindow": {
+      "background": "background",
+      "Header.background": "background",
+      "Header.inactiveBackground": "background",
+      "Header.borderColor": "border",
+      "HeaderTab.underlinedTabBackground": "backgroundElevated",
+      "HeaderTab.selectedInactiveBackground": "backgroundElevated",
+      "HeaderTab.hoverBackground": "backgroundHover",
+      "HeaderTab.hoverInactiveBackground": "backgroundHover",
+      "HeaderTab.underlineColor": "accent",
+      "Button.hoverBackground": "backgroundSelected",
+      "Button.selectedBackground": "backgroundSelected",
+      "Button.selectedForeground": "foregroundBright",
+      "Stripe.background": "backgroundFrame",
+      "Stripe.borderColor": "#00000000"
+    },
+
+    "Panel": {
+      "background": "background",
+      "foreground": "foreground"
+    },
+
+    "Tree": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "selectionInactive",
+      "hoverBackground": "backgroundHover",
+      "modifiedItemForeground": "accent",
+      "hash": "borderSubtle"
+    },
+
+    "List": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "selectionInactive",
+      "hoverBackground": "backgroundHover"
+    },
+
+    "Table": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "selectionInactive",
+      "hoverBackground": "backgroundHover",
+      "gridColor": "border",
+      "stripeColor": "backgroundElevated",
+      "lightSelectionBackground": "selection",
+      "lightSelectionForeground": "foreground",
+      "lightSelectionInactiveBackground": "selectionInactive",
+      "lightSelectionInactiveForeground": "foreground"
+    },
+
+    "EditorTabs": {
+      "background": "background",
+      "underTabsBorderColor": "border",
+      "underlineColor": "accent",
+      "underlinedTabBackground": "backgroundElevated",
+      "underlinedTabForeground": "foreground",
+      "underlinedBorderColor": "accent",
+      "inactiveUnderlinedTabBorderColor": "foregroundDim",
+      "inactiveUnderlinedTabBackground": "background",
+      "inactiveUnderlineColor": "foregroundDim",
+      "hoverBackground": "backgroundHover",
+      "inactiveColoredFileBackground": "#00000000"
+    },
+
+    "DefaultTabs": {
+      "background": "background",
+      "underlineColor": "accent",
+      "hoverBackground": "backgroundHover",
+      "inactiveUnderlineColor": "foregroundDim"
+    },
+
+    "TabbedPane": {
+      "background": "background",
+      "foreground": "foreground",
+      "contentAreaColor": "border",
+      "hoverColor": "backgroundHover",
+      "underlineColor": "accent",
+      "focusColor": "accent"
+    },
+
+    "Editor": {
+      "background": "background",
+      "foreground": "foreground",
+      "shortcutForeground": "accent",
+      "SearchField.borderColor": "border"
+    },
+
+    "TextField": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "caretForeground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground"
+    },
+
+    "TextArea": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "caretForeground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground"
+    },
+
+    "ComboBox": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "nonEditableBackground": "backgroundElevated",
+      "ArrowButton.iconColor": "foreground",
+      "ArrowButton.disabledIconColor": "foregroundDim",
+      "ArrowButton.nonEditableBackground": "backgroundElevated"
+    },
+
+    "Spinner": {
+      "background": "backgroundElevated"
+    },
+
+    "Button": {
+      "background": "background",
+      "foreground": "foreground",
+      "startBackground": "#00000000",
+      "endBackground": "#00000000",
+      "startBorderColor": "borderSubtle",
+      "endBorderColor": "borderSubtle",
+      "focusedBorderColor": "accent",
+      "disabledBorderColor": "border",
+      "shadowColor": "#00000000",
+      "default": {
+        "foreground": "#2e3440",
+        "startBackground": "accent",
+        "endBackground": "accent",
+        "startBorderColor": "accent",
+        "endBorderColor": "accent",
+        "focusedBorderColor": "accent",
+        "focusColor": "#88c0d066",
+        "shadowColor": "#00000000"
+      }
+    },
+
+    "ActionButton": {
+      "hoverBackground": "backgroundHover",
+      "hoverBorderColor": "backgroundHover",
+      "pressedBackground": "backgroundSelected",
+      "pressedBorderColor": "backgroundSelected"
+    },
+
+    "SegmentedButton": {
+      "selectedStartBorderColor": "backgroundSelected",
+      "selectedEndBorderColor": "backgroundSelected",
+      "focusedSelectedButtonColor": "accent"
+    },
+
+    "Popup": {
+      "background": "backgroundElevated",
+      "borderColor": "borderSubtle",
+      "Header.activeBackground": "backgroundSelected",
+      "Header.inactiveBackground": "backgroundElevated",
+      "Advertiser.foreground": "foregroundDim",
+      "Advertiser.background": "backgroundElevated",
+      "separatorColor": "border",
+      "paintBorder": true
+    },
+
+    "PopupMenu": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground"
+    },
+
+    "Menu": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "borderColor": "borderSubtle",
+      "separatorColor": "border",
+      "acceleratorForeground": "foregroundDim",
+      "acceleratorSelectionForeground": "foreground"
+    },
+
+    "MenuBar": {
+      "foreground": "foreground",
+      "selectionBackground": "backgroundSelected",
+      "selectionForeground": "foreground",
+      "borderColor": "border",
+      "highlight": "backgroundSelected"
+    },
+
+    "MenuItem": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionForeground": "foreground",
+      "acceleratorForeground": "foregroundDim",
+      "disabledForeground": "foregroundDim"
+    },
+
+    "StatusBar": {
+      "background": "backgroundFrame",
+      "borderColor": "#00000000",
+      "Widget.hoverBackground": "backgroundSelected"
+    },
+
+    "SearchEverywhere": {
+      "Header.background": "backgroundElevated",
+      "SearchField.background": "backgroundElevated",
+      "SearchField.borderColor": "border",
+      "Tab.selectedBackground": "backgroundSelected",
+      "Tab.selectedForeground": "foreground",
+      "Advertiser.foreground": "foregroundDim",
+      "Advertiser.background": "backgroundElevated"
+    },
+
+    "Notification": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "borderColor": "borderSubtle",
+      "errorBackground": "#3d2d33",
+      "errorForeground": "foreground",
+      "errorBorderColor": "red",
+      "ToolWindow.informativeBackground": "backgroundElevated",
+      "ToolWindow.informativeForeground": "foreground",
+      "ToolWindow.informativeBorderColor": "accent",
+      "ToolWindow.warningBackground": "#3d3533",
+      "ToolWindow.warningForeground": "foreground",
+      "ToolWindow.warningBorderColor": "yellow",
+      "ToolWindow.errorBackground": "#3d2d33",
+      "ToolWindow.errorForeground": "foreground",
+      "ToolWindow.errorBorderColor": "red"
+    },
+
+    "ProgressBar": {
+      "trackColor": "backgroundElevated",
+      "progressColor": "accent",
+      "indeterminateStartColor": "accent",
+      "indeterminateEndColor": "accentSecondary",
+      "failedColor": "red",
+      "failedEndColor": "red",
+      "passedColor": "green",
+      "passedEndColor": "green"
+    },
+
+    "ScrollBar": {
+      "Mac.thumbColor": "#4c566a50",
+      "Mac.thumbBorderColor": "#4c566a50",
+      "Mac.hoverThumbColor": "#4c566a80",
+      "Mac.hoverThumbBorderColor": "#4c566a80",
+      "thumbColor": "#4c566a50",
+      "thumbBorderColor": "#4c566a50",
+      "hoverThumbColor": "#4c566a80",
+      "hoverThumbBorderColor": "#4c566a80",
+      "trackColor": "#2e344000",
+      "hoverTrackColor": "#3b425240",
+      "background": "#2e344000"
+    },
+
+    "Link": {
+      "activeForeground": "accent",
+      "hoverForeground": "accent",
+      "visitedForeground": "purple",
+      "pressedForeground": "accentSecondary",
+      "secondaryForeground": "foregroundDim"
+    },
+
+    "Component": {
+      "focusColor": "accent",
+      "focusedBorderColor": "accent",
+      "borderColor": "border",
+      "disabledBorderColor": "border",
+      "errorFocusColor": "red",
+      "warningFocusColor": "orange",
+      "iconColor": "foreground",
+      "hoverIconColor": "foregroundBright"
+    },
+
+    "CheckBox": {
+      "background": "background",
+      "foreground": "foreground",
+      "select": "backgroundSelected"
+    },
+
+    "RadioButton": {
+      "background": "background",
+      "foreground": "foreground"
+    },
+
+    "ToggleButton": {
+      "onBackground": "accent",
+      "onForeground": "#2e3440",
+      "offBackground": "backgroundElevated",
+      "offForeground": "foreground",
+      "borderColor": "border"
+    },
+
+    "FileColor": {
+      "Yellow": "#ebcb8b1a",
+      "Green": "#a3be8c1a",
+      "Blue": "#88c0d01a",
+      "Violet": "#b48ead1a",
+      "Orange": "#d087701a",
+      "Rose": "#bf616a1a"
+    },
+
+    "CompletionPopup": {
+      "foreground": "foreground",
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selectionInactive",
+      "matchForeground": "accent"
+    },
+
+    "Counter": {
+      "background": "accentSecondary",
+      "foreground": "#2e3440"
+    },
+
+    "Tag": {
+      "background": "backgroundSelected"
+    },
+
+    "VersionControl": {
+      "GitLog.headIconColor": "accent",
+      "GitLog.localBranchIconColor": "green",
+      "GitLog.remoteBranchIconColor": "accentSecondary",
+      "GitLog.tagIconColor": "yellow",
+      "GitLog.otherIconColor": "purple",
+      "Log.Commit.currentBranchBackground": "#88c0d01a",
+      "Log.Commit.unmatchedForeground": "foregroundDim",
+      "FileHistory.Commit.selectedBranchBackground": "#434c5e"
+    },
+
+    "Debugger": {
+      "Variables.collectingDataForeground": "foregroundDim",
+      "Variables.changedValueForeground": "orange",
+      "Variables.evaluatingExpressionForeground": "foregroundDim",
+      "Variables.exceptionForeground": "red",
+      "Variables.modifyingValueForeground": "yellow",
+      "Variables.valueForeground": "foreground"
+    },
+
+    "RunWidget": {
+      "foreground": "foreground",
+      "runningBackground": "#354838",
+      "stopBackground": "#3d2d33",
+      "hoverBackground": "backgroundSelected"
+    },
+
+    "GotItTooltip": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "borderColor": "borderSubtle",
+      "Button.foreground": "accent",
+      "shortcutForeground": "accent",
+      "linkForeground": "accent"
+    },
+
+    "WelcomeScreen": {
+      "background": "background",
+      "borderColor": "border",
+      "headerBackground": "backgroundElevated",
+      "footerBackground": "backgroundElevated",
+      "Details.background": "background",
+      "SidePanel.background": "backgroundElevated",
+      "Projects.background": "background",
+      "Projects.selectionBackground": "selection",
+      "Projects.selectionInactiveBackground": "selectionInactive",
+      "Projects.actions.background": "backgroundHover"
+    },
+
+    "Separator": {
+      "separatorColor": "border"
+    },
+
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "borderSubtle"
+    },
+
+    "Label": {
+      "foreground": "foreground",
+      "disabledForeground": "foregroundDim",
+      "selectedForeground": "foreground",
+      "errorForeground": "red",
+      "infoForeground": "foregroundDim",
+      "successForeground": "green",
+      "warningForeground": "orange"
+    },
+
+    "Group": {
+      "separatorColor": "border",
+      "disabledSeparatorColor": "border"
+    },
+
+    "Slider": {
+      "background": "background",
+      "foreground": "foreground",
+      "trackColor": "backgroundElevated",
+      "buttonColor": "accent",
+      "buttonBorderColor": "accent",
+      "tickColor": "foregroundDim"
+    },
+
+    "SpeedSearch": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "borderColor": "accent",
+      "errorForeground": "red"
+    },
+
+    "Banner": {
+      "infoBackground": "#88c0d01a",
+      "infoBorderColor": "accent",
+      "warningBackground": "#d087701a",
+      "warningBorderColor": "orange",
+      "errorBackground": "#bf616a1a",
+      "errorBorderColor": "red",
+      "successBackground": "#a3be8c1a",
+      "successBorderColor": "green"
+    },
+
+    "DragAndDrop": {
+      "borderColor": "accent",
+      "areaBackground": "#88c0d01a"
+    },
+
+    "SidePanel": {
+      "background": "background"
+    },
+
+    "ValidationTooltip": {
+      "errorBackground": "#3d2d33",
+      "errorBorderColor": "red",
+      "warningBackground": "#3d3533",
+      "warningBorderColor": "orange"
+    },
+
+    "MemoryIndicator": {
+      "allocatedBackground": "backgroundElevated",
+      "usedBackground": "accentSecondary"
+    },
+
+    "InplaceRefactoringPopup": {
+      "borderColor": "accent"
+    },
+
+    "ParameterInfo": {
+      "background": "backgroundElevated",
+      "foreground": "foreground",
+      "currentOverloadBackground": "backgroundSelected",
+      "currentParameterForeground": "accent",
+      "lineSeparatorColor": "border"
+    },
+
+    "ColorChooser": {
+      "background": "background",
+      "foreground": "foreground"
+    },
+
+    "Lesson": {
+      "stepNumberForeground": "accent"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#88c0d0",
+      "Actions.Green": "#a3be8c",
+      "Actions.Red": "#bf616a",
+      "Actions.Yellow": "#ebcb8b",
+      "Actions.Grey": "#616e88",
+      "Actions.GreyInline": "#616e88",
+      "Actions.GreyInline.Dark": "#616e88",
+      "Objects.Blue": "#81a1c1",
+      "Objects.Green": "#a3be8c",
+      "Objects.GreenAndroid": "#a3be8c",
+      "Objects.Grey": "#616e88",
+      "Objects.Pink": "#b48ead",
+      "Objects.Purple": "#b48ead",
+      "Objects.Red": "#bf616a",
+      "Objects.RedStatus": "#bf616a",
+      "Objects.Yellow": "#ebcb8b",
+      "Objects.YellowDark": "#d08770",
+      "Objects.BlackText": "#d8dee9",
+      "Checkbox.Background.Default": "#3b4252",
+      "Checkbox.Background.Selected": "#88c0d0",
+      "Checkbox.Background.Disabled": "#2e3440",
+      "Checkbox.Border.Default": "#4c566a",
+      "Checkbox.Border.Selected": "#88c0d0",
+      "Checkbox.Border.Disabled": "#3b4252",
+      "Checkbox.Focus.Wide": "#88c0d066",
+      "Checkbox.Foreground.Disabled": "#616e88",
+      "Checkbox.Foreground.Selected": "#2e3440"
+    }
+  }
+}

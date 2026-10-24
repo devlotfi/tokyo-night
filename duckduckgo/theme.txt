@@ -1,0 +1,5 @@
+Colors:
+Background -> #24283b
+Header -> #24283b
+Title -> #7aa2f7
+Visited Title -> #bb9af7 
