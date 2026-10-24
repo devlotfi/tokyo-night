@@ -23,6 +23,10 @@ A Set of Tokyo Night themes for different softwares
 
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/jetbrains-1.png">
 
+## Windows Terminal
+
+<img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/windows-terminal-1.png">
+
 ## FastFetch
 
 <img src="https://raw.githubusercontent.com/devlotfi/tokyo-night/main/github-assets/fastfetch-1.png">
